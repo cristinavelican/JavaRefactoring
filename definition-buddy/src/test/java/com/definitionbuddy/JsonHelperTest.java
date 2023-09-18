@@ -1,6 +1,7 @@
 package com.definitionbuddy;
 
 import com.definitionbuddy.helpers.JsonHelper;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +16,7 @@ class JsonHelperTest {
             "{\n  \"definition\": \"\",\n \"example\": \"\",\n \"synonyms\": []\n }\n ]\n }\n}\n }\n]";
 
     @Test
-    public void jsonHelperExtractsDefinitionsCorrectly() {
+    public void jsonHelperExtractsDefinitionsCorrectly() throws JsonProcessingException {
 
         List<String> definitions = JsonHelper.extractDefinitions(JSON);
         Assertions.assertEquals(definitions.size(), 2);
