@@ -16,11 +16,11 @@ public class AppWithSimpleFactory {
 
         System.out.println("Dict with static factory methods");
         // Dict with several static factory methods
-        GeneralDictionary dict1 = GeneralDictionary.english();
+        GeneralDictionary dict1 = SimpleDictionaryFactory.english();
         List<String> definitions1 = dict1.getDefinitions("tea");
         definitions1.forEach(System.out::println);
 
-        GeneralDictionary dict2 = GeneralDictionary.spanish();
+        GeneralDictionary dict2 = SimpleDictionaryFactory.spanish();
         List<String> definitions2 = dict2.getDefinitions("hola");
         definitions2.forEach(System.out::println);
 

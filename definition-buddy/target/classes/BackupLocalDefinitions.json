@@ -1,128 +1,606 @@
 [
-	    {
-        "word": "coffee",
-        "phonetic": "/ˈkɒfi/",
-        "origin": "Late 16th century from Turkish kahveh, from Arabic qahwa, probably via Dutch koffie.",
-        "meaning": {
-            "noun": [
-                {
-                    "definition": "A hot drink made from the roasted and ground seeds (coffee beans) of a tropical shrub.",
-                    "example": "a cup of coffee",
-                    "synonyms": [
-                        "joe",
-                        "java"
-                    ]
-                },
-                {
-                    "definition": "The shrub which yields coffee seeds, native to the Old World tropics."
-                }
-            ]
+  {
+    "word": "tea",
+    "phonetics": [
+      {
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tea-1-au.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=75701682",
+        "license": {
+          "name": "BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0"
         }
+      },
+      {
+        "text": "/tiː/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tea-1-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9027553",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
+        }
+      },
+      {
+        "text": "/ti/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tea-1-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1661714",
+        "license": {
+          "name": "BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A drug smoked or ingested for euphoric effect, cannabis.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "After smoking a bowl of that fine marijuana, they ate some brownies."
+          },
+          {
+            "definition": "The hemp plant itself, Cannabis sativa.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "Food consumed before going to bed.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "Any meal eaten in the evening; dinner eaten in the evening, rather than at noon.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "A meal from a chip shop consisting of a deep-fried food with chips.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "a fish supper; a pizza supper"
+          }
+        ],
+        "synonyms": [
+          "dinner",
+          "evening meal"
+        ],
+        "antonyms": []
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A drinker, especially one who drinks slowly (i.e., one who sups).",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The tea plant (Camellia sinensis); a variety of this plant.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Darjeeling tea is grown in India."
+          },
+          {
+            "definition": "The dried leaves or buds of the tea plant; a variety of such leaves.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Go to the supermarket and buy some Darjeeling tea."
+          },
+          {
+            "definition": "The drink made by infusing these dried leaves or buds in hot water.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Would you like some tea?"
+          },
+          {
+            "definition": "Any similar drink made by infusing parts of various other plants.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "camomile tea; mint tea"
+          },
+          {
+            "definition": "Meat stock served as a hot drink.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "beef tea"
+          },
+          {
+            "definition": "A cup or (East Asia) glass of any of these drinks, often with milk, sugar, lemon, and/or tapioca pearls.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "A light midafternoon meal, typically but not necessarily including tea.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "The break in play between the second and third sessions.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Australia were 490 for 7 at tea on the second day."
+          },
+          {
+            "definition": "Information, especially gossip.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Spill the tea on that drama, hon."
+          }
+        ],
+        "synonyms": [
+          "afternoon tea",
+          "herb tea",
+          "herbal tea",
+          "infusion",
+          "tisane",
+          "tea leaves",
+          "tea bush",
+          "tea plant",
+          "tea tree"
+        ],
+        "antonyms": []
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To drink tea.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To take afternoon tea (the light meal).",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-	
-	{
-        "word": "tea",
-        "phonetic": "/tiː/",
-        "origin": "Mid 17th century probably via Malay from Chinese (Min dialect) te; related to Mandarin chá. Compare with char.",
-        "meaning": {
-            "noun": [
-                {
-                    "definition": "A hot drink made by infusing the dried crushed leaves of the tea plant in boiling water.",
-                    "example": "Katherine sipped her tea"
-                },
-                {},
-                {
-                    "definition": "A light afternoon meal consisting typically of tea to drink, sandwiches, and cakes.",
-                    "example": "they were about to take afternoon tea",
-                    "synonyms": [
-                        "meal",
-                        "lunch",
-                        "dinner",
-                        "supper",
-                        "repast"
-                    ]
-                }
-            ],
-            "verb": [
-                {
-                    "definition": "Drink tea or take afternoon tea.",
-                    "example": "I teaed with Professor Herron"
-                }
-            ]
-        }
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/marijuana",
+      "https://en.wiktionary.org/wiki/supper",
+      "https://en.wiktionary.org/wiki/tea"
+    ]
+  },
+  {
+    "word": "tea",
+    "phonetics": [],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A moment, a historical unit of time from China, about the amount of time needed to quickly drink a traditional cup of tea. It is now found in Chinese-language historical fiction.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-	
-	{
-        "word": "computer",
-        "phonetic": "/kəmˈpjuːtə/",
-        "meaning": {
-            "noun": [
-                {
-                    "definition": "An electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program."
-                }
-            ]
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/tea"
+    ]
+  },
+  {
+    "word": "computer",
+    "phonetic": "/kəmˈpjuːtə/",
+    "phonetics": [
+      {
+        "text": "/kəmˈpjuːtə/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/computer-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014349",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
         }
-    }, 
-	
-    {
-        "word": "book",
-        "phonetic": "/bʊk/",
-        "origin": "Old English bōc (originally also ‘a document or charter’), bōcian ‘to grant by charter’, of Germanic origin; related to Dutch boek and German Buch, and probably to beech (on which runes were carved).",
-        "meaning": {
-            "noun": [
-                {
-                    "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
-                    "example": "a book of selected poems",
-                    "synonyms": [
-                        "volume",
-                        "tome",
-                        "work",
-                        "printed work",
-                        "publication",
-                        "title",
-                        "opus",
-                        "treatise"
-                    ]
-                },
-                {
-                    "definition": "A bound set of blank sheets for writing in.",
-                    "example": "an accounts book",
-                    "synonyms": [
-                        "notepad",
-                        "notebook",
-                        "pad",
-                        "memo pad",
-                        "exercise book",
-                        "binder"
-                    ]
-                },
-                {
-                    "definition": "A set of tickets, stamps, matches, samples of cloth, etc., bound together.",
-                    "example": "a pattern book"
-                }
+      },
+      {
+        "text": "/kəmˈpjutɚ/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/computer-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1676720",
+        "license": {
+          "name": "BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A person employed to perform computations; one who computes.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "(by restriction) A male computer, where the female computer is called a computress.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "A programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media.",
+            "synonyms": [
+              "'puter",
+              "box",
+              "calculator",
+              "machine",
+              "processor"
             ],
-            "verb": [
-                {
-                    "definition": "Reserve (accommodation, a place, etc.); buy (a ticket) in advance.",
-                    "example": "I have booked a table at the Swan",
-                    "synonyms": [
-                        "reserve",
-                        "make a reservation for",
-                        "arrange in advance",
-                        "prearrange",
-                        "arrange for",
-                        "order"
-                    ]
-                },
-                {
-                    "definition": "Make an official note of the personal details of (a person who has broken a law or rule)",
-                    "example": "the cop booked me and took me down to the station"
-                },
-                {
-                    "definition": "Leave suddenly.",
-                    "example": "they just ate your pizza and drank your soda and booked"
-                }
-            ]
+            "antonyms": []
+          }
+        ],
+        "synonyms": [
+          "'puter",
+          "box",
+          "calculator",
+          "machine",
+          "processor"
+        ],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/computer"
+    ]
+  },
+  {
+    "word": "book",
+    "phonetic": "/buːk/",
+    "phonetics": [
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014290",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
         }
-    }
+      },
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=380110"
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "He was frustrated because he couldn't find anything about dinosaurs in the book."
+          },
+          {
+            "definition": "A long work fit for publication, typically prose, such as a novel or textbook, and typically published as such a bound collection of sheets, but now sometimes electronically as an e-book.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I have three copies of his first book."
+          },
+          {
+            "definition": "A major division of a long work.",
+            "synonyms": [
+              "tome",
+              "volume"
+            ],
+            "antonyms": [],
+            "example": "Genesis is the first book of the Bible."
+          },
+          {
+            "definition": "A record of betting (from the use of a notebook to record what each person has bet).",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I'm running a book on who is going to win the race."
+          },
+          {
+            "definition": "A convenient collection, in a form resembling a book, of small paper items for individual use.",
+            "synonyms": [
+              "booklet"
+            ],
+            "antonyms": [],
+            "example": "a book of raffle tickets"
+          },
+          {
+            "definition": "The script of a musical or opera.",
+            "synonyms": [
+              "libretto"
+            ],
+            "antonyms": []
+          },
+          {
+            "definition": "(usually in the plural) Records of the accounts of a business.",
+            "synonyms": [
+              "account",
+              "record"
+            ],
+            "antonyms": []
+          },
+          {
+            "definition": "A book award, a recognition for receiving the highest grade in a class (traditionally an actual book, but recently more likely a letter or certificate acknowledging the achievement).",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "(whist) Six tricks taken by one side.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "Four of a kind",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "A document, held by the referee, of the incidents happened in the game.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "(by extension) A list of all players who have been booked (received a warning) in a game.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "The twenty-sixth Lenormand card.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "Any source of instruction.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [
+          "account",
+          "record",
+          "booklet",
+          "libretto",
+          "tome",
+          "volume"
+        ],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/book"
+    ]
+  },
+  {
+    "word": "book",
+    "phonetic": "/buːk/",
+    "phonetics": [
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014290",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
+        }
+      },
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=380110"
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To reserve (something) for future use.",
+            "synonyms": [
+              "reserve"
+            ],
+            "antonyms": [],
+            "example": "I can book tickets for the concert next week."
+          },
+          {
+            "definition": "To write down, to register or record in a book or as in a book.",
+            "synonyms": [
+              "make a note of",
+              "note down",
+              "record",
+              "write down"
+            ],
+            "antonyms": [],
+            "example": "They booked that message from the hill"
+          },
+          {
+            "definition": "(law enforcement) To record the name and other details of a suspected offender and the offence for later judicial action.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "The police booked him for driving too fast."
+          },
+          {
+            "definition": "To issue with a caution, usually a yellow card, or a red card if a yellow card has already been issued.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To travel very fast.",
+            "synonyms": [
+              "bomb",
+              "hurtle",
+              "rocket",
+              "shoot",
+              "speed",
+              "whiz"
+            ],
+            "antonyms": [],
+            "example": "He was really booking, until he passed the speed trap."
+          },
+          {
+            "definition": "To record bets as bookmaker.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "(law student slang) To receive the highest grade in a class.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "The top three students had a bet on which one was going to book their intellectual property class."
+          },
+          {
+            "definition": "To leave.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "He was here earlier, but he booked."
+          }
+        ],
+        "synonyms": [
+          "bomb",
+          "hurtle",
+          "rocket",
+          "shoot",
+          "speed",
+          "whiz",
+          "make a note of",
+          "note down",
+          "record",
+          "write down",
+          "reserve"
+        ],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/book"
+    ]
+  },
+  {
+    "word": "book",
+    "phonetic": "/buːk/",
+    "phonetics": [
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9014290",
+        "license": {
+          "name": "BY 3.0 US",
+          "url": "https://creativecommons.org/licenses/by/3.0/us"
+        }
+      },
+      {
+        "text": "/buːk/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/book-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=380110"
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "(with person as subject) To cook (something) in an oven.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I baked a delicious cherry pie."
+          },
+          {
+            "definition": "(with baked thing as subject) To be cooked in an oven.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "The cake baked at 350°F."
+          },
+          {
+            "definition": "To be warmed to drying and hardening.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "The clay baked in the sun."
+          },
+          {
+            "definition": "To dry by heat.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "They baked the electrical parts lightly to remove moisture."
+          },
+          {
+            "definition": "To be hot.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I'm baking after that workout in the gym."
+          },
+          {
+            "definition": "To cause to be hot.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To smoke marijuana.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To harden by cold.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To fix (lighting, reflections, etc.) as part of the texture of an object to improve rendering performance.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "(with \"in\" or \"into\") To incorporate into something greater.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/bake",
+      "https://en.wiktionary.org/wiki/book"
+    ]
+  }
 ]

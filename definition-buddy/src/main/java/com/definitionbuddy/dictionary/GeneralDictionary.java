@@ -22,8 +22,7 @@ public class GeneralDictionary implements Dictionary {
     private ExampleProvider examples;
 
     // implement singleton
-    private static final GeneralDictionary ENGLISH = new GeneralDictionary(newForeignLanguageInstance(Language.ENGLISH));
-    private static final GeneralDictionary SPANISH = new GeneralDictionary(newForeignLanguageInstance(Language.SPANISH));
+
     public GeneralDictionary() {
         search = newInstance();
     }
@@ -36,15 +35,6 @@ public class GeneralDictionary implements Dictionary {
         this.search = search;
         this.finder = finder;
         this.examples = examples;
-    }
-
-    public static GeneralDictionary english() {
-        return ENGLISH;
-    }
-
-
-    public static GeneralDictionary spanish() {
-        return SPANISH;
     }
 
     public List<String> getDefinitions(String word) throws JsonProcessingException {

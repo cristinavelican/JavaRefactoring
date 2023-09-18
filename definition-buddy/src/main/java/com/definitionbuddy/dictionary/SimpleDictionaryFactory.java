@@ -10,15 +10,17 @@ import static com.definitionbuddy.search.WebServiceDefinitionSearch.newInstance;
 /**
  * A simple (a.k.a. parametrized) switch-based factory
  */
-public class SimpleDictionaryFactory {
+public class  SimpleDictionaryFactory {
 
-
-    public static GeneralDictionary english(){
-        return new GeneralDictionary(newForeignLanguageInstance(ENGLISH));
+    //singleton principle
+    private static final GeneralDictionary ENGLISH = new GeneralDictionary(newForeignLanguageInstance(Language.ENGLISH));
+    private static final GeneralDictionary SPANISH = new GeneralDictionary(newForeignLanguageInstance(Language.SPANISH));
+    public static GeneralDictionary english() {
+        return ENGLISH;
     }
 
-    public static GeneralDictionary spanish(){
-        return new GeneralDictionary(newForeignLanguageInstance(SPANISH));
+    public static GeneralDictionary spanish() {
+        return SPANISH;
     }
 
     public static GeneralDictionary ofLanguage(Language language){
