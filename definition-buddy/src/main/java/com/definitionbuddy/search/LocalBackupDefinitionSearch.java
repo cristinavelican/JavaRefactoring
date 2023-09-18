@@ -26,11 +26,8 @@ public class LocalBackupDefinitionSearch implements DefinitionSearch {
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
+        return extractDefinitions(content);
 
-        String sub1 = content.substring(content.indexOf("word\": \"" + word) + 4);
-        String sub2 = sub1.substring(0, sub1.indexOf("word\": \""));
-
-        return extractDefinitions(sub2);
 
 
     }
